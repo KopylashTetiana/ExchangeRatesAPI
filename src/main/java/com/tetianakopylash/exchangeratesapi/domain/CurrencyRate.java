@@ -1,4 +1,4 @@
-package com.example.exchangeratesapi.model;
+package com.tetianakopylash.exchangeratesapi.domain;
 
 import jakarta.persistence.*;
 
@@ -13,13 +13,10 @@ public class CurrencyRate {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+    private LocalDate date;
     private String currency;
-
     private BigDecimal rate;
 
-    private LocalDate date;
-
-    // getters and setters
+    // getters & setters
 
 }

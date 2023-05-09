@@ -1,4 +1,4 @@
-package com.example.exchangeratesapi;
+package com.tetianakopylash.exchangeratesapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
