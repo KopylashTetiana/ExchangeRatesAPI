@@ -17,6 +17,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     implementation ("org.postgresql:postgresql")
+    implementation ("org.hibernate:hibernate-core:5.6.3.Final")
 
 }
 

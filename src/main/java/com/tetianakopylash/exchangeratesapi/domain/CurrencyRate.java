@@ -7,7 +7,7 @@ import java.time.LocalDate;
 
 
 @Entity
-@Table(name = "currency_rate")
+@Table(name = "currency_rates")
 public class CurrencyRate {
 
     @Id
